@@ -1,7 +1,8 @@
 # OS Lab – Assignment 5
+
 ## Process Synchronization using xv6
 
-**Name:** Manogna  
+**Name:** Manogna
 **Roll No:** 2401MC46
 
 ## Programs Implemented
@@ -13,10 +14,10 @@
 
 ## Environment
 
-- xv6
-- Ubuntu / WSL2
-- GCC
-- QEMU
+* xv6
+* Ubuntu / WSL2
+* GCC
+* QEMU
 
 ## How to Run
 
@@ -28,22 +29,22 @@ make
 make qemu
 ```
 
-
 Run the programs inside xv6:
 
+```text
 $ peterson
 $ prodcons
 $ readwrite
 $ dining
+```
 
-Results
-Peterson's Algorithm: Final counter = 20
-Producer-Consumer: Completed successfully
-Readers-Writers: Completed successfully
-Dining Philosophers: All 5 philosophers completed 5 cycles successfully
+## Results
 
-Conclusion
+* Peterson's Algorithm: Final counter = 20
+* Producer-Consumer: Completed successfully
+* Readers-Writers: Completed successfully
+* Dining Philosophers: All 5 philosophers completed 5 cycles successfully
 
-The assignment demonstrates process synchronization, mutual exclusion,
-bounded-buffer synchronization, reader-writer synchronization, and
-deadlock avoidance in xv6.
+## Conclusion
+
+The assignment demonstrates process synchronization, mutual exclusion, bounded-buffer synchronization, reader-writer synchronization, and deadlock avoidance in xv6.
