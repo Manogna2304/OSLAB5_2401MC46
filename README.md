@@ -26,6 +26,8 @@ Build xv6 using:
 make clean
 make
 make qemu
+```
+
 
 Run the programs inside xv6:
 
@@ -33,11 +35,13 @@ $ peterson
 $ prodcons
 $ readwrite
 $ dining
+
 Results
 Peterson's Algorithm: Final counter = 20
 Producer-Consumer: Completed successfully
 Readers-Writers: Completed successfully
 Dining Philosophers: All 5 philosophers completed 5 cycles successfully
+
 Conclusion
 
 The assignment demonstrates process synchronization, mutual exclusion,
